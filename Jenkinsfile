@@ -19,6 +19,7 @@ pipeline{
     stage("deploy"){
       steps{
         echo "the deploy stage is running......"
+        echo "we finished......................"
       }
     }
   }
